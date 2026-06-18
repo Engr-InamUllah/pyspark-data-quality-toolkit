@@ -1,0 +1,7 @@
+checks:
+  - type: unique
+    column: order_id
+  - type: range
+    column: amount
+    minimum: 0
+    maximum: 100000
